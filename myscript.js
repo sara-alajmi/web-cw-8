@@ -9,6 +9,16 @@
 // 👇 هنا function عرف الدالة او
 
 
+function driving (age) {
+    
+     if (age >=18) { console.log(' 🚘😍 مبروك سوف تحصل على الليسن') }
+
+    else  {  console.log(' 😢 للاسف عمرك لا يسمح') } 
+        
+}
+
+driving(17) ;
+driving(20) ;
 
 // لا تنسى أن تنادي الدالة
 
@@ -22,9 +32,11 @@
 
 // 👇 هنا array عرف المصفوفة او
 
+let iceCream = [ 'caramel' , 'lemon' , 'watermelon', 'pineapple' ]
 
-
-
+for (let flavors of iceCream) {
+ console.log(flavors)
+}
 
 // --------------------------------- ✨ بونص ------------------------------------
 // بحيث عند مناداة الدالة تطبع القائمة myIceCream بإسم function عرف دالة او
@@ -32,3 +44,25 @@
 
 // --------------------------------- 🔥 بونص ------------------------------------
 // while loop اطبع احد المصفوفات بإستخدام
+
+
+let flavors  = [ {name: "caramel" }  ,  {name: "lemon" }, {name: "watermelon"} , {name: "pineapple"} ]
+
+function myIceCream (flavors){
+    console.log(`
+    ${flavors.name} is my favorite flavor ` );
+
+}
+
+let movies = [ 'peter pan' , 'hotel transylvania' , 'scoobydoo']
+
+function favorite (){
+    let counter = 0; 
+
+while (counter < 10 ) {
+    counter = counter + 1 
+    console.log("My favorite movies"+counter);
+}
+
+
+}
